@@ -1,0 +1,59 @@
+/* Universal Box-Sizing Reset */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333333;
+}
+
+/* Nav Bar */
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* 3 Columns Section */
+section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: inline-block;
+    width: 28%; /* Dùng 28% để không bị vỡ hàng khi cộng dồn margin */
+    padding: 20px;
+    background-color: lightblue;
+    margin: 10px;
+    vertical-align: top; /* Căn lề trên cùng cho 3 cột thẳng hàng */
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    color: #666666;
+    font-size: 0.9rem;
+}
